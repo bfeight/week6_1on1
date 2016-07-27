@@ -1,0 +1,9 @@
+  <% @users.each do |user| %>
+  <div class="div-style">
+  <p>
+    <h3><%= user.name %></h3>
+    <br> <h4><%= user.bio %></h4></br>
+    <br> <img class="image" src="<%= user.picture %>"></br>
+  </p>
+</div>
+    <% end %>
